@@ -35,7 +35,7 @@ Nice to haves
 -------------
 
 - size matters, make it as small as possible with as few http requests as possible
-- no jQuery
+- no jQuery, but use any other library you see fit
 - structure your code, use Common Js module syntax
 - use Bower or NPM
 - use Grunt, Gulp or Webpack
