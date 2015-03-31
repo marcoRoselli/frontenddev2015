@@ -41,7 +41,7 @@ Nice to haves
 - use Grunt, Gulp or Webpack
 - use LESS / SCSS
 - use no image files
-- use templates, no hardcoded DOM in the index.html
+- use a templating library, no hardcoded DOM in the index.html
 - make it look nice
 - add animations
 - use es6 features
