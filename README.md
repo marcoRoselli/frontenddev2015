@@ -35,12 +35,12 @@ Nice to haves
 -------------
 
 - size matters, make it as small as possible with as few http requests as possible
-- no jQuery, but use any other library you see fit
+- no jQuery but any other library you see fit (size is key for us)
 - structure your code, use Common Js module syntax
 - use Bower or NPM
 - use Grunt, Gulp or Webpack
 - use LESS / SCSS
-- use no image files
+- don't use image files
 - use a templating library, no hardcoded DOM in the index.html
 - make it look nice
 - add animations
