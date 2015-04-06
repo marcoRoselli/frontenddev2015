@@ -1,0 +1,76 @@
+
+@media screen and (min-width:320px) {
+	div#optionContainer {
+		width:320px;
+	}
+}
+@media screen and (min-width:480px) {
+	div#optionContainer {
+		width:480px;
+	}
+}
+
+
+body {
+	margin:0;
+	width:100%;
+	font-size:12px;
+	font-family:'Sans-serif';
+	color:#F8F8F8 ;
+	text-shadow:1px 1px #707070  ;
+}
+
+div#optionContainer {
+	position:relative;
+	height:50px;
+	margin:auto;
+	border:1px solid black;
+	box-shadow: 2px 2px 1px #888888;
+	background-color: rgba(204,51,0,0.9);
+	background-image: url("meerkat.png");
+	background-repeat:no-repeat;
+	background-position: left center;
+	text-align:center;
+}
+
+
+div.question {
+	margin: 5px auto;
+	font-size:1.2em;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+}
+
+div.selection {
+	display:inline-block;
+	min-width: 25%;
+	text-align:center;
+	cursor:pointer;
+	background: #fac695; /* Old browsers */
+	background: -moz-linear-gradient(top, #fac695 0%, #f5ab66 47%, #ef8d31 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fac695), color-stop(47%,#f5ab66), color-stop(100%,#ef8d31)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fac695 0%,#f5ab66 47%,#ef8d31 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fac695 0%,#f5ab66 47%,#ef8d31 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fac695 0%,#f5ab66 47%,#ef8d31 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fac695 0%,#f5ab66 47%,#ef8d31 100%); /* W3C */
+}
+div.selection:active {
+	background: #fac695; /* Old browsers */
+	background: -moz-linear-gradient(top, #ef8d31 0%, #f5ab66 47%,#fac695  100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ef8d31), color-stop(47%,#f5ab66), color-stop(100%,#fac695)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ef8d31 0%,#f5ab66 47%, #fac695 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,#ef8d31  0%,#f5ab66 47%,#fac695 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ef8d31 0%,#f5ab66 47%, #fac695 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ef8d31 0%,#f5ab66 47%, #fac695 100%); /* W3C */
+}
+
+
+div.selection-post {
+	display:inline-block;
+	min-width: 25%;
+	text-align:center;
+	border:none;
+	cursor:inherit;
+	background:none;
+}
