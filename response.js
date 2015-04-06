@@ -47,6 +47,9 @@
 			if (xhr.status == "200" && xhr.readyState == "4") {
 				displayResult(JSON.parse(xhr.response));
 			}
+			if (xhr.status == "500" && xhr.readyState == "4") {
+				displayResult(JSON.parse([false,"Unable to save result"]));
+			}
 		}
 		xhr.open('get','responseHandler.php?task=select&choice='+selectedValue,'true');
 		xhr.send();
